@@ -4,9 +4,132 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Responsive Site</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="style/style.css">
 </head>
 <body>
-    
+    <header >
+        <nav class="navbar navbar-expand-lg navbar-dark  bg-primary">
+                <a class="navbar-brand" href="#">
+                    <img src="images/icon/logo.png" alt="">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarText">
+                  <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Works</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <img src="images/image/player/profile-1.png" alt="">
+                        </a>
+                      </li>
+                  </ul>
+                </div>
+          </nav>
+    </header>
+   <main>
+    <section class="container-fluid top-player bg-white">
+      <h3>Top Player</h3>
+      <div class="row">
+        <div class="col-md-4 col-sm-6 p-3  player  d-flex align-items-center">
+          <img src="images/image/player/profile-1.png" alt="">
+          <p class="player-name pl-3">John Smith</p>
+        </div>
+        <div class="col-md-4 col-sm-6 p-3  player d-flex align-items-center">
+          <img src="images/image/player/profile-2.png" alt="">
+          <p class="player-name pl-3">Pro Rasel</p>
+        </div>
+        <div class="col-md-4 col-sm-6 p-3  player d-flex align-items-center">
+          <img src="images/image/player/profile-3.png" alt="">
+          <p class="player-name pl-3">Abu Sufian</p>
+        </div>
+        <div class="col-md-4 col-sm-6 p-3  player d-flex align-items-center">
+          <img src="images/image/player/profile-4.png" alt="">
+          <p class="player-name pl-3">Shajedul Karim</p>
+        </div>
+        <div class="col-md-4 col-sm-6 p-3  player d-flex align-items-center">
+          <img src="images/image/player/profile-5.png" alt="">
+          <p class="player-name pl-3">Maruf Ahmed</p>
+        </div>
+        <div class="col-md-4 col-sm-6 p-3  player d-flex align-items-center">
+          <img src="images/image/player/profile-6.png" alt="">
+          <p class="player-name pl-3">Mujahid</p>
+        </div>
+      </div>
+     <hr>
+      <h3>Top Blog</h3>
+      <div class="row">
+        <div class="col-md-6 blog d-flex p-3">
+          <img src="images/image/blog/blog-1.png" alt="">
+          <div class="blog-text ml-3">
+            <h3>13 of My Favorite UI/UX Goodies</h3>
+              <p>By Danny Sapio</p>
+          </div>
+        </div>
+        <div class="col-md-6 blog d-flex p-3">
+          <img src="images/image/blog/blog-2.png" alt="">
+          <div class="blog-text ml-3">
+            <h3>13 of My Favorite
+              UI/UX Goodies</h3>
+              <p>By Danny Sapio</p>
+          </div>
+        </div>
+        <div class="col-md-6 blog d-flex p-3">
+          <img src="images/image/blog/blog-3.png" alt="">
+          <div class="blog-text ml-3">
+            <h3>13 of My Favorite
+              UI/UX Goodies</h3>
+              <p>By Danny Sapio</p>
+          </div>
+        </div>
+        <div class="col-md-6 blog d-flex p-3">
+          <img src="images/image/blog/blog-4.png" alt="">
+          <div class="blog-text ml-3">
+            <h3>13 of My Favorite
+              UI/UX Goodies</h3>
+              <p>By Danny Sapio</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="container-fluid course mt-4 bg-white">
+      <h3>Latest Course</h3>
+      <div class="card-deck ">
+        <div class="card d-flex align-items-center">
+          <img src="images/image/course/course-1.png" class="card-img-top mt-3" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">React - The Complete Guide 2020</h5>
+            <p class="card-text">Reed Krakoff.</p>
+          </div>
+        </div>
+        <div class="card d-flex align-items-center">
+          <img src="images/image/course/course-2.png" class="card-img-top mt-3" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">React - The Complete Guide 2020</h5>
+            <p class="card-text">Reed Krakoff.</p>
+          </div>
+        </div>
+        <div class="card d-flex align-items-center">
+          <img src="images/image/course/course-3.png" class="card-img-top mt-3" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">React - The Complete Guide 2020</h5>
+            <p class="card-text">Reed Krakoff.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+   </main>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
 </body>
 </html>

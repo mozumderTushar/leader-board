@@ -1,0 +1,22 @@
+body{
+    background-color: #F3F1FF;;
+}
+
+.navbar img{
+    width: 40px;
+}
+.player img{
+    width: 56px;
+}
+.top-player{
+    max-width: 870px;
+}
+.blog img{
+    width:224px;
+}
+.course{
+    max-width: 870px; 
+}
+.course img{
+    width: 224px;
+}
